@@ -8,7 +8,7 @@
 思路：用if语句来判断输入的参数类型，若为--list则打印支持类型，若为空则打印用法，不为空则通过elif判断类型，再进行解压，解压路径通过直接传脚本参数决定。
 代码见self_compression.sh.结果图如下
 
-![result](https://github.com/Nevermore512/Diantask/edit/master/README.md)
+![result](https://github.com/Nevermore512/Diantask/blob/master/pictures/task2.2.png)
 
 ## 2.3获取文件夹下最大的前n个文件
 思路：主要是使用 du -max-depth=1 查看目录下的第一层文件，再利用sort函数排序。代码见file_size.sh,结果图如下
