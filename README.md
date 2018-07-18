@@ -13,4 +13,4 @@
 ## 2.3获取文件夹下最大的前n个文件
 思路：主要是使用 du -max-depth=1 查看目录下的第一层文件，再利用sort函数排序。代码见file_size.sh,结果图如下
 
-![result]()
+![result](https://github.com/Nevermore512/Diantask/blob/master/pictures/task2.3.png)
