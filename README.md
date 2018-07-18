@@ -5,4 +5,6 @@
 ![result](https://github.com/Nevermore512/Diantask/blob/master/pictures/task2.1.png)
 
 ## 2.2自动根据后缀名解压文件
-思路：用if语句来判断输入的参数类型，若为--list则打印亚索类型
+思路：用if语句来判断输入的参数类型，若为--list则打印支持类型，若为空则打印用法，不为空则通过elif判断类型，再进行解压，解压路径通过直接传脚本参数决定。
+代码见self_compression.sh.结果图如下
+![result]()
